@@ -1,5 +1,87 @@
-.student{
-    font-family:'Times New Roman', Times, serif;
-    color: blue;
-    font-size: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login-page {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/14653.jpg');
+}
+/* Center container styling */
+.container {
+    width: 350px;
+    /*background-image: url("https://pin.it/34JSpF2Se");*/
+    margin: auto;
+    margin-top: 100px;
+   /* background: rgba(255, 255, 255, 0.7);*/
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    color: #1ba94c;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1ba94c;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #178f41;
+}
+
+.register-text {
+    margin-top: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-text a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
 }
