@@ -17,6 +17,9 @@ body {
 .login-page {
     background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/14653.jpg');
 }
+.register-page {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/14653.jpg');
+}
 /* Center container styling */
 .container {
     width: 350px;
@@ -84,4 +87,76 @@ button:hover {
 
 .register-text a:hover {
     text-decoration: underline;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: 2s;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/14653.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 2s;
+    object-fit: contain;
+}
+.box:hover{
+    background-color: aliceblue;
+    transform: scale(1,1) rotate(180deg);
+}
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+/* HEADER */
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+}
+
+.logo-image {
+    width: 140px;
+}
+
+/* NAVIGATION */
+.header-items {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* space between menu items */
+}
+
+.header-items li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.header-items li a:hover {
+    opacity: 0.7;
+}
+
+/* CENTER IMAGE */
+.center-img {
+    display: block;
+    margin: 40px auto;  /* centers image */
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
 }
