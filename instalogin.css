@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    background: #111;
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    background: #222;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: white;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #385185;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.or-box {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.or-box .line {
+    flex: 1;
+    height: 1px;
+    background: #333;
+}
+
+.or-box p {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.fb-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.fb-icon {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.fb-login a {
+    color: #0095f6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot {
+    margin-top: 10px;
+    color: #0095f6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup-box {
+    width: 350px;
+    background: #111;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.get-app {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.store-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Google Play button */
+.google-play {
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Microsoft Store button */
+.microsoft-store {
+    width: 150px;   /* set separately */
+    height: auto;
+    object-fit: contain;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #777;
+    margin: 0 8px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.copy {
+    margin-top: 10px;
+    color: #777;
+    font-size: 12px;
+}
